@@ -5,11 +5,11 @@
       <title>Madison Richards</title>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
       <link type="text/css" rel="stylesheet" href="final-exam.css"
 
   </head>
   <body>
+
     <div class="container">
       <h1>11 Festive Holiday Christmas Cake Recipes</h1>
       <p class="source"><a href=http://www.epicurious.com/recipes-menus/our-most-festive-holiday-christmas-cakes-recipes-gallery target="_blank">Source: epicurious.com</a></p>
@@ -64,7 +64,13 @@
     </div>
 
     <script>
+
       $('#more-recipes').hide();
+
+      $('#reveal-recipes').click(function() {
+      $('#more-recipes').slideDown();
+      });
+
     </script>
 
   </body>
